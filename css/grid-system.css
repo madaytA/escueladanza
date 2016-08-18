@@ -1,0 +1,238 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/* Grid system */
+
+.container {
+	width: 968px;
+	padding-left: 14px; 
+	padding-right: 14px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.container-fluid {
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+	margin-left: -14px;
+	margin-right: -14px;
+}
+
+.row:before, .row:after{
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+[class*="col-"] {
+	min-height: 7px;
+	padding: 0 14px;
+	float: left;
+}
+
+.col-1 {
+	/* (1 / 12) x 100 */
+	width: 8.333333%;
+} 
+
+.col-2 {
+	/* (2 / 12) x 100 */
+	width: 16.666667%;
+} 
+
+.col-3 {
+	/* (3 / 12) x 100 */
+	width: 25%;
+} 
+
+.col-4 {
+	/* (4 / 12) x 100 */
+	width: 33.333333%;
+}
+
+.col-5 {
+	/* (5 / 12) x 100 */
+	width: 41.666667%;
+}
+
+.col-6 {
+	/* (6 / 12) x 100 */
+	width: 50%;
+} 
+
+.col-7 {
+	/* (7 / 12) x 100 */
+	width: 58.333333%;
+}
+
+.col-8 {
+	/* (8 / 12) x 100 */
+	width: 66.666667%;
+}
+
+.col-9 {
+	/* (9 / 12) x 100 */
+	width: 75%;
+}
+
+.col-10 {
+	/* (10 / 12) x 100 */
+	width: 83.333333%;
+}
+
+.col-11 {
+	/* (11 / 12) x 100 */
+	width: 91.666667%;
+}
+
+.col-12 {
+	/* (12 / 12) x 100 */
+	width: 100%;
+}
+.logo{
+	text-align: center;
+	color: #192951;
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+.logo h1{
+	font-size: 20px;
+}
+.menu ul{
+	text-align: center;
+}
+.menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+.menu a{
+	text-decoration: none;
+	color: #aaa;
+	margin: 20px;
+}
+/*-----------------------------------------
+formulario
+-------------------------------------------*/
+
+.contenedor-formulario {
+  	height: 375px;
+  	width: 50%;
+  	color: #f2f2f2;
+  	padding: 50px; }
+.contenedor-formulario h3{
+	color: #19264a;
+    padding-bottom: 25px;
+  }
+.contenedor-formulario .formulario {
+    width: 100%;
+    margin: auto; }
+.contenedor-formulario .formulario .input-group {
+    position: relative;
+    margin-bottom: 20px; }
+.contenedor-formulario .formulario .input-group input[type="text"],
+ .contenedor-formulario .formulario .input-group input[type="email"]{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #1a2952;
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    background: none;
+    border: none;
+    border: 2px solid #9aa3ba; }
+
+.contenedor-formulario .formulario .input-group input[name="mensaje"]{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #1a2952;
+    width: 100%;
+    height: 90px;
+    outline: none;
+    background: none;
+    border: none;
+    border: 2px solid #9aa3ba; }
+
+.contenedor-formulario .formulario .input-group input[type="text"]:focus, .contenedor-formulario .formulario .input-group input[type="text"]:active,
+.contenedor-formulario .formulario .input-group input[type="email"]:focus,
+.contenedor-formulario .formulario .input-group input[type="email"]:active{
+    outline: none;
+    border-bottom: 2px solid #1a2952; }
+        
+.contenedor-formulario .formulario .input-group label {
+    color: #303F9F; }
+.contenedor-formulario .formulario .input-group label i {
+   padding-right: 10px; }
+
+.contenedor-formulario .formulario .input-group label.label {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 16px;
+    position: absolute;
+    top: 9px;
+    left: 0; 
+    }
+.contenedor-formulario .formulario .input-group label.label.active {
+    top: -12px;
+    font-size: 13px;
+    line-height: 12px;
+    color: #7f8185; }
+.contenedor-formulario .formulario .input-group.error label {
+    color: #D32F2F; }
+.contenedor-formulario .formulario .input-group.error label:hover {
+    background: rgba(211, 47, 47, 0.2); }
+.contenedor-formulario .formulario .input-group.error label:before {
+    border: 2px solid #D32F2F; }
+.contenedor-formulario .formulario input[type="submit"] {
+    background: #1a2952;
+    border-radius: 5px;
+    border: 2px solid #f2f2f2;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+.contenedor-formulario .formulario input[type="submit"]:hover {
+    background: #293c70; }
+
+ /*ir arriba*/
+.ir-arriba{
+    display:inline-block;
+    padding: 15px;
+    background-color: #1a2952;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 275px;
+}
+
+.ir-arriba:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}

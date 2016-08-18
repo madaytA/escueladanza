@@ -1,0 +1,199 @@
+/* Inserta tu codigo aqui */
+.logo h1{
+	text-align: center;
+	padding-top: 40px;
+	margin-bottom: 10px;
+}
+.menu ul{
+	text-align: center;
+}
+.menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+.menu a{
+	text-decoration: none;
+	color: #aaa;
+	margin: 20px;
+}
+.blog{
+	background-color: #f2f2f2;
+	padding-bottom: 50px;
+}
+h2{
+	text-align: center;
+	margin-bottom: 50px;
+	padding-top: 50px;
+}
+.azul{
+	background-color: #CED8F6;
+	margin-bottom: 30px;
+}
+.azul .uno{
+	background-image: url(../img/blog1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+}
+.azul .dos{
+	background-image: url(../img/profesor_5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+}
+.azul .tres{
+	background-image: url(../img/instructor_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+}
+.azul .text-blue{
+	padding: 30px 20px 5px 15px;
+}
+.azul a{
+	color: #fff;	
+	text-decoration: none;
+}
+.azul .vermas{
+	background-color: #0B0B61;
+	margin-top: 15px;
+	border-radius: 7px;
+	border: 0px;
+	text-align: center;
+}
+.contenedor-formulario {
+  	height: 375px;
+  	width: 50%;
+  	color: #f2f2f2;
+  	padding: 50px; }
+.contenedor-formulario h3{
+	color: #19264a;
+    padding-bottom: 25px;
+  }
+.contenedor-formulario .formulario {
+    width: 100%;
+    margin: auto; }
+.contenedor-formulario .formulario .input-group {
+    position: relative;
+    margin-bottom: 20px; }
+.contenedor-formulario .formulario .input-group input[type="text"],
+ .contenedor-formulario .formulario .input-group input[type="email"]{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #1a2952;
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    background: none;
+    border: none;
+    border: 2px solid #9aa3ba; }
+
+.contenedor-formulario .formulario .input-group input[name="mensaje"]{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #1a2952;
+    width: 100%;
+    height: 90px;
+    outline: none;
+    background: none;
+    border: none;
+    border: 2px solid #9aa3ba; }
+
+.contenedor-formulario .formulario .input-group input[type="text"]:focus, .contenedor-formulario .formulario .input-group input[type="text"]:active,
+.contenedor-formulario .formulario .input-group input[type="email"]:focus,
+.contenedor-formulario .formulario .input-group input[type="email"]:active{
+    outline: none;
+    border-bottom: 2px solid #1a2952; }
+        
+.contenedor-formulario .formulario .input-group label {
+    color: #303F9F; }
+.contenedor-formulario .formulario .input-group label.label {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 16px;
+    position: absolute;
+    top: 9px;
+    left: 0; 
+    }
+.contenedor-formulario .formulario .input-group label.label.active {
+    top: -12px;
+    font-size: 13px;
+    line-height: 12px;
+    color: #7f8185; }
+.contenedor-formulario .formulario .input-group.error label {
+    color: #D32F2F; }
+.contenedor-formulario .formulario .input-group.error label:hover {
+    background: rgba(211, 47, 47, 0.2); }
+.contenedor-formulario .formulario .input-group.error label:before {
+    border: 2px solid #D32F2F; }
+.contenedor-formulario .formulario input[type="submit"] {
+    background: #1a2952;
+    border-radius: 5px;
+    border: 2px solid #f2f2f2;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+.contenedor-formulario .formulario input[type="submit"]:hover {
+    background: #293c70; }
+/*-----------------------------------------
+contactanos-imagen
+-------------------------------------------*/
+.cont-contactanos{
+	position: relative;
+}
+.img-contac{
+	height: 375px;
+    width: 60%;
+    position: absolute;
+    left: 40%;
+    top: 0;
+    background: url(../img/shoes_!.jpg) no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+/*-----------------------------------------
+pie de pagina
+-------------------------------------------*/
+.pie{
+	position: relative;
+	height: 45px;
+	background: #1a2952;
+	color: #becaeb;
+}
+.pie label{
+	position: absolute;
+	font-size: 11px;
+	padding: 20px 0 0 20px;
+}
+
+
+/*ir arriba*/
+.ir-arriba{
+    display:inline-block;
+    padding: 15px;
+    background-color: #1a2952;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 275px;
+}
+
+.ir-arriba:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,223 @@
+/**{outline: 1px solid rgba(225,0,0, 0.4);
+
+}*/
+.logo{
+	text-align: center;
+	color: #192951;
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+.logo h1{
+	font-size: 20px;
+}
+.menu ul{
+	text-align: center;
+}
+.menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+.menu a{
+	text-decoration: none;
+	color: #aaa;
+	margin: 20px;
+}
+/*---------------------------------------------
+banner
+-----------------------------------------------*/
+.banner{
+    height: 285px;
+}
+.img-banner{
+    width: 100%;
+    height: 100%;
+   overflow: hidden;
+    position: relative;
+}
+.img-banner ul li{
+    height: 375px;
+    
+}
+.img-banner ul li img{
+    width: 100%;
+    height: 100%;
+}
+
+.info-banner{
+    position: absolute;
+    color: #c7cccd;
+    top: 72px;
+    height: 170px;
+    width: 180px;
+    left: 90px;
+    font-size: 24px;
+}
+.info-banner li{
+    list-style: none;
+}
+.info-banner p{
+    @font-face{
+    font-family:Latolight ;
+    src: url(../fonts/Latolight.ttf);
+}
+}
+.info-banner p{
+font-size: 10px;
+padding-right: 30px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.info-banner a{
+    text-decoration: none;
+    background: #020f1c;
+    font-size: 10px;
+    color: #c7cccd;
+    padding: 7px 20px;
+    margin-bottom: 10px;
+}
+.info-nos {
+    text-align: center;
+    height: 280px;
+}
+.info-nos p{
+    padding: 40px 239px 0 239px ;
+
+}
+.info-nos .decor-1{
+    margin:auto;
+    background: url(../img/decoration_1.png);
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+}
+.info-nos a{
+    background: #1a2952;
+    color: #c7cccd;
+    padding: 13px 55px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+.img-instruct{
+	position: relative;
+	width: 100%;
+}
+.img-instruct .img-izq{
+	height: 240px;
+    width: 50%;
+    background: url(../img/instructor_4.jpg);
+    background-size: 100% 139.5%;
+}
+.img-instruct .img-der{
+	position: absolute;
+    background: url(../img/profesor_9.jpg);
+    height: 240px;
+    width: 50%;
+    top: 0px;
+    left: 50%;
+   	background-size: 100% 161.5%;
+}
+
+.img-instruct a{
+	text-align: center;
+	color: #c7cccd;
+	font-size: 15px;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+	width: 40%;
+	background: #1a2952;
+	padding: 15px 40px;
+}
+.frace{
+	position: relative;
+	height: 225px;
+	background: url(../img/textura_2.jpg);
+}
+.text-frace{
+	position: absolute;
+	top: 100px;
+	left: 15%;
+	right: 15%;
+	font-size:28px;
+	@font-face{
+	font-family: Neoteric-Blod;
+	src: url(../fonts/Neoteric-Blod.ttf);
+}
+}
+.text-frace p{
+	text-align: center;
+}
+
+.ubicacion{
+	position: relative;
+	height: 300px;
+	background: #1a2952;
+}
+.ubicacion .info-ubi{
+	color: #c7cccd;
+	position: absolute;
+	width: 40%;
+	top: 60px;
+	left: 50px;
+}
+ .info-ubi p:first-child{
+	font-size: 10px;
+	padding-right: 54px;
+	padding-bottom: 20px;
+ }
+ .info-ubi h2{
+ 	font-size: 15px;
+ 	padding-bottom: 10px;
+ }
+  .info-ubi p:last-child{
+	font-size: 10px;
+ }
+.ubicacion .map-ubi{
+	position: absolute;
+	width: 60%;
+	top: 0;
+	left: 40%;
+}
+.map-ubi .map{
+	position: absolute;
+	top:60px;
+	left: 110px;
+}
+
+/*-----------------------------------------
+contactanos-imagen
+-------------------------------------------*/
+.cont-contactanos{
+	position: relative;
+}
+.img-contac{
+	height: 375px;
+    width: 60%;
+    position: absolute;
+    left: 40%;
+    top: 0;
+    background: url(../img/shoes_!.jpg) no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+/*-----------------------------------------
+pie de pagina
+-------------------------------------------*/
+.pie{
+	position: relative;
+	height: 45px;
+	background: #1a2952;
+	color: #becaeb;
+}
+.pie label{
+	position: absolute;
+	font-size: 11px;
+	padding: 20px 0 0 20px;
+}
+

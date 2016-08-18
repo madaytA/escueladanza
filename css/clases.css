@@ -1,0 +1,246 @@
+/* Inserta tu codigo aqui */
+.logo h1{
+	text-align: center;
+	padding-top: 40px;
+	margin-bottom: 10px;
+}
+.menu ul{
+	text-align: center;
+}
+.menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+.menu a{
+	text-decoration: none;
+	color: #aaa;
+	margin: 20px;
+}
+/*============*/
+.clases{
+	background-color: #f2f2f2;
+	padding-bottom: 50px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.clases h2{
+	margin-bottom: 20px;
+}
+
+.clases li{
+    vertical-align: top;
+    display: inline-block;
+}
+.ballet{
+	background-image: url(../img/dance_12.jpg);
+}
+
+.dancemodern{
+	background-image: url(../img/breakdance.jpg);
+}
+.jazzliric{
+	background-image: url(../img/lirical-jazz.jpg);
+}
+.arabicdance{
+	background-image: url(../img/arabe.jpg);
+}
+.kids{
+	background-image: url(../img/little.jpg);
+}
+.yoga{
+	background-image: url(../img/yoga.jpg);
+}
+.img-sty{
+    position: relative;
+	background-size: cover;
+	background-position: center;
+	height: 320px;
+    width: 260px;
+    margin: auto;
+	border: 10px solid #f2f2f2;
+    transition: all 0.3s ease-in;
+
+}
+.img-sty:hover{
+    border: 5px solid #020f1c;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+}
+.img-sty .texto{
+    position: absolute;
+	color: #fff;
+	padding: 20px 20px;
+	opacity: 0.8;
+    height: 80px;
+    width: 220px;
+    left: 10px;
+    top: 111px;
+    background-color: rgba(0,0,0,0.8);
+    opacity: 0;
+    transform: scale(0) rotate(-180deg);/*Rotamos 180grados y le damos tamaño 0*/
+    transition: all 0.4s ease-in;
+    border-radius: 0px;
+    
+}
+.img-sty .texto h6{
+opacity: 0;
+border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+background: transparent;
+margin: 20px 40px 0px 40px;
+transition: all 0.5s ease-in-out;
+}
+.img-sty .texto p {
+    font-size: 10px;
+    margin-top: 10px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.img-sty:hover .texto{
+
+opacity: 1;
+transform: scale(1) rotate(0deg);/*Regresamos a su tamaño y posición original*/
+transition-delay: 0.2s;
+}
+
+.img-sty:hover h6,
+.img-sty:hover p{
+    font-size: 10px;
+    margin-top: 5px;
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+/*============*/
+.contenedor-formulario {
+  	height: 375px;
+  	width: 50%;
+  	color: #f2f2f2;
+  	padding: 50px; }
+.contenedor-formulario h3{
+	color: #19264a;
+    padding-bottom: 25px;
+  }
+.contenedor-formulario .formulario {
+    width: 100%;
+    margin: auto; }
+.contenedor-formulario .formulario .input-group {
+    position: relative;
+    margin-bottom: 20px; }
+.contenedor-formulario .formulario .input-group input[type="text"],
+ .contenedor-formulario .formulario .input-group input[type="email"]{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #1a2952;
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    background: none;
+    border: none;
+    border: 2px solid #9aa3ba; }
+
+.contenedor-formulario .formulario .input-group input[name="mensaje"]{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #1a2952;
+    width: 100%;
+    height: 90px;
+    outline: none;
+    background: none;
+    border: none;
+    border: 2px solid #9aa3ba; }
+
+.contenedor-formulario .formulario .input-group input[type="text"]:focus, .contenedor-formulario .formulario .input-group input[type="text"]:active,
+.contenedor-formulario .formulario .input-group input[type="email"]:focus,
+.contenedor-formulario .formulario .input-group input[type="email"]:active{
+    outline: none;
+    border-bottom: 2px solid #1a2952; }
+        
+.contenedor-formulario .formulario .input-group label {
+    color: #303F9F; }
+.contenedor-formulario .formulario .input-group label.label {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 16px;
+    position: absolute;
+    top: 9px;
+    left: 0; 
+    }
+.contenedor-formulario .formulario .input-group label.label.active {
+    top: -12px;
+    font-size: 13px;
+    line-height: 12px;
+    color: #7f8185; }
+.contenedor-formulario .formulario .input-group.error label {
+    color: #D32F2F; }
+.contenedor-formulario .formulario .input-group.error label:hover {
+    background: rgba(211, 47, 47, 0.2); }
+.contenedor-formulario .formulario .input-group.error label:before {
+    border: 2px solid #D32F2F; }
+.contenedor-formulario .formulario input[type="submit"] {
+    background: #1a2952;
+    border-radius: 5px;
+    border: 2px solid #f2f2f2;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+.contenedor-formulario .formulario input[type="submit"]:hover {
+    background: #293c70; }
+/*-----------------------------------------
+contactanos-imagen
+-------------------------------------------*/
+.cont-contactanos{
+	position: relative;
+}
+.img-contac{
+	height: 375px;
+    width: 60%;
+    position: absolute;
+    left: 40%;
+    top: 0;
+    background: url(../img/shoes_!.jpg) no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+/*-----------------------------------------
+pie de pagina
+-------------------------------------------*/
+.pie{
+	position: relative;
+	height: 45px;
+	background: #1a2952;
+	color: #becaeb;
+}
+.pie label{
+	position: absolute;
+	font-size: 11px;
+	padding: 20px 0 0 20px;
+}
+
+/*ir arriba*/
+.ir-arriba{
+    display:inline-block;
+    padding: 15px;
+    background-color: #1a2952;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 275px;
+}
+
+.ir-arriba:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
